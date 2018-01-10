@@ -20,6 +20,5 @@ from procheckapp import views
 urlpatterns = [
     url(r'^$', views.index, name='index'),
     url(r'^procheckapp/',include('procheckapp.urls')),
-
     url(r'^admin/', admin.site.urls),
 ]
